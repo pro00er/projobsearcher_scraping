@@ -8,8 +8,6 @@
 import scrapy
 
 
-class WantedsinglepageItem(scrapy.Item):
+class PrototypeItem(scrapy.Item):
+    category = scrapy.Field()
     position = scrapy.Field()
-    company_address = scrapy.Field()
-    company_name = scrapy.Field()
-
